@@ -81,8 +81,8 @@
 .sliding-container.experience { transform: translateX(-66.666%); }
 
 h1 {
-  margin: 0 0 2rem 0;
-  font-size: 3rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 2rem;
   color: white;
   width: 100%;
   text-align: center;
@@ -134,8 +134,8 @@ p {
 }
 
 .project-item h3 {
-  margin: 0 0 0.8rem 0;
-  font-size: 1.1rem;
+  margin: 0 0 0.6rem 0;
+  font-size: 0.95rem;
   color: white;
   font-family: 'Geist Pixel Square', sans-serif;
   line-height: 1.4;
@@ -169,4 +169,33 @@ p {
 
 .project-item li {
   margin-bottom: 0.4rem;
+}
+
+.social-footer {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  z-index: 20;
+}
+
+.social-footer a {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'Geist Pixel Grid', monospace;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.social-footer a:hover {
+  color: white;
+  transform: translateY(-2px);
+}
+
+.about-intro p {
+  padding-left: 2.5ch;
+  text-indent: -2.5ch;
+  margin-bottom: 0.8rem;
 }

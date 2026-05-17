@@ -67,6 +67,12 @@ function App() {
           <span onClick={() => setActivePage('experience')} className={`dot ${activePage === 'experience' ? 'active' : ''}`}></span>
         </div>
       </div>
+
+      <div className="social-footer">
+        <a href="https://github.com/barelysomethin" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:barelyfayz@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/fayz-719383394" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
     </div>
   )
 }
